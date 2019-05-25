@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GIT KAT</title>
+
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="{{ url_for('static', filename='js/mydata.js') }}"></script>
+	<style type="text/css">
+		.footer{
+			 position: fixed;
+			    left: 0;
+			    bottom: 0;
+			    width: 100%;
+			    background-color: red;
+			    color: white;
+			    text-align: center;
+		}
+		.jumbotron{
+			background-color: #17a2b8;
+			width: 100%;
+			font-color: yellow;
+
+		}
+		</style>
+</head>
+<body>
+<div class="container">
+	 <div class="jumbotron">
+    <h1 style="color:yellow"><i><b>GitKat</b></i> <img src="https://mk0caiblog1h3pefaf7c.kinstacdn.com/wp-content/uploads/2016/03/Octocat-github-1.png" alt="" align="right" width="50%" height="42%"></h1> 
+    
+    <p style="color:#FFFAFA"> <b>#Learn</b> <b>#Upgrade</b> <b>#Share</b>  ur <b>T</b>ecnical stuff  </p>
+  </div>
+
+	<form class="form-inline">
+	  <div class="form-group">
+	    <label><i>RollNo:</i></label>
+	   <input type="text" class="form-control" id="RollNo" placeholder="Enter MSIT No">
+	  </div>
+	  <button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+	<br>
+
+	<!-- <div id="successAlert" class="alert alert-success" role="alert" style="display:none;"></div> -->
+	<div id="successAlert" class="alert alert-success" role="alert" style="display:none;"></div>
+
+	<div id="errorAlert" class="alert alert-danger" role="alert" style="display:none;"></div>
+	
+	<div class="footer">
+		<p><h6>Project by : K.Sai Prasanna Kumar (IIIT-H 2017-2019)</h6><i><h6><b>WELCOME</b></h6> </i></p>
+
+  	</div>
+  
+		
+</div>
+</body>
+</html>
